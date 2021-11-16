@@ -17,3 +17,8 @@ print(result)
 
 
 ```
+Resultado:
+
+```[[['B-PatientorDisabledGroup', 'O', 'B-TherapeuticorPreventiveProcedure', 'O', 'B-SignorSymptom', 'O', 'B-SignorSymptom', 'O'], ['B-PatientorDisabledGroup', 'O', 'B-Chemicals&Drugs+<>+B-OrganicChemical+<>+B-PharmacologicSubstance', 'O', 'O', 'B-SignorSymptom', 'I-SignorSymptom', 'I-SignorSymptom', 'O']]]
+'Paciente':{'B-PatientorDisabledGroup'},'recebeu':{'O'},'medicação':{'B-TherapeuticorPreventiveProcedure'},'para':{'O'},'febre':{'B-SignorSymptom'},'e':{'O'},'tosse':{'B-SignorSymptom'},'.':{'O'},'Paciente':{'B-PatientorDisabledGroup'},'tomou':{'O'},'omeprazol':{'B-Chemicals&Drugs+<>+B-OrganicChemical+<>+B-PharmacologicSubstance'},'e':{'O'},'referiu':{'O'},'dor':{'B-SignorSymptom'},'de':{'I-SignorSymptom'},'cabeça':{'I-SignorSymptom'},'.':{'O'}
+'Paciente':{'B-PatientorDisabledGroup'},'recebeu':{'O'},'medicação':{'B-TherapeuticorPreventiveProcedure'},'para':{'O'},'febre':{'B-SignorSymptom'},'e':{'O'},'tosse':{'B-SignorSymptom'},'.':{'O'},'Paciente':{'B-PatientorDisabledGroup'},'tomou':{'O'},'omeprazol':{'B-Chemicals&Drugs+<>+B-OrganicChemical+<>+B-PharmacologicSubstance'},'e':{'O'},'referiu':{'O'},'dor':{'B-SignorSymptom'},'de':{'I-SignorSymptom'},'cabeça':{'I-SignorSymptom'},'.':{'O'}```
